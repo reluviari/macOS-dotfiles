@@ -1,0 +1,40 @@
+[user]
+	mail = reluviari@gmail.com
+[core]
+	editor = vim
+[merge]
+	tool = vimdiff
+
+[alias]
+	gcl='git clone'
+	ga='git add'
+	gall='git add -A'
+	gus='git reset --hard && git clean -dfx'
+	gpristine='git reset --hard && git clean -dfx'
+	gclean='git clean -fd'
+	gss='git status -s'
+	gsu='git submodule update --init --recursive'
+	gl='git pull'
+	gpr='git pull --rebase'
+	gpp='git pull && git push'
+	gp='git push'
+	gpom='git push origin master'
+	grv='git remote -v'
+	gra='git remote add'
+	gd='git diff'
+	gca='git commit -a'
+	gb='git branch'
+	gba='git branch -a'
+	gcount='git shortlog -n'
+	gcp='git cherry-pick'
+	gcpx='git cherry-pick -x'
+	gco='git checkout'
+	gcom='git checkout master'
+	gcb='git checkout -b'
+	gcob='git checkout -b'
+	gdel='git branch -D'
+	glog='git log --graph --pretty=oneline --abbrev-commit'
+	gt='git tag'
+	gta='git tag -a'
+	gtd='git tag -d'
+	gtl='git tag -l'
