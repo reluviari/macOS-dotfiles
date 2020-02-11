@@ -1,21 +1,39 @@
-Host targaryen
-    HostName 192.168.1.10
-    User daenerys
-    Port 7654
-    IdentityFile ~/.ssh/targaryen.key
+# To generate public key:
 
-Host tyrell
-    HostName 192.168.10.20
+# $ ssh-keygen -f ~/.ssh/company_xpto_id_rsa -C "My XPTO SSH Key"
 
-Host martell
-    HostName 192.168.10.50
+# Github
 
-Host *ell
-    user oberyn
+Host github.com
+  HostName github.com
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/id_rsa
 
-Host * !martell
-    LogLevel INFO
+# Bitbucket
 
-Host *
-    User root
-    Compression yes
+Host bitbucket_company_xpto
+  HostName bitbucket.org
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/company_xpto_id_rsa
+
+Host bitbucket_company_yxz
+  HostName bitbucket.org
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/company_xyz_id_rsa
+
+# Access EC2 AWS
+
+Host e2b-prod-a
+  Hostname 34.226.101.111
+  User ubuntu
+  IdentityFile ~/.ssh/e2b_prod.pem
+
+Host e2b-prod-b
+  Hostname 34.197.223.222
+  User ubuntu
+  IdentityFile ~/.ssh/e2b_prod.pem
+
+Host e2b-staging
+  Hostname 34.226.101.333
+  User ubuntu
+  IdentityFile ~/.ssh/e2b_prod.pem

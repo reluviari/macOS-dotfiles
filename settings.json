@@ -3,5 +3,6 @@
     "workbench.colorTheme": "Adapta Nokto",
     "window.zoomLevel": 0,
     "editor.fontFamily": "Monaco, 'Courier New', monospace",
-    "files.autoSave": "afterDelay"
+    "files.autoSave": "afterDelay",
+    "go.useLanguageServer": true
 }
