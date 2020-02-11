@@ -1,7 +1,10 @@
 [user]
 	mail = reluviari@gmail.com
+<<<<<<< HEAD
 	name = Danilo Dias
 	email = reluviari@gmail.com
+=======
+>>>>>>> 6cc9e67bf5ef0f21d04e4076581552be6b0d7afe
 [core]
 	editor = vim
 [merge]

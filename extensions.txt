@@ -7,6 +7,7 @@ msjsdiag.vscode-react-native@0.14.0
 Orta.vscode-jest@3.1.1
 PKief.material-icon-theme@3.9.3
 SolarLiner.linux-themes@1.0.1
+<<<<<<< HEAD
 dbaeumer.vscode-eslint@2.0.15
 dsznajder.es7-react-js-snippets@2.5.0
 EditorConfig.EditorConfig@0.14.4
@@ -16,3 +17,5 @@ msjsdiag.vscode-react-native@0.14.0
 Orta.vscode-jest@3.1.1
 PKief.material-icon-theme@3.9.3
 SolarLiner.linux-themes@1.0.1
+=======
+>>>>>>> 6cc9e67bf5ef0f21d04e4076581552be6b0d7afe
