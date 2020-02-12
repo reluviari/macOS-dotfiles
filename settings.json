@@ -4,5 +4,8 @@
     "window.zoomLevel": 0,
     "editor.fontFamily": "Monaco, 'Courier New', monospace",
     "files.autoSave": "afterDelay",
-    "go.useLanguageServer": true
+    "go.useLanguageServer": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "powermode.enabled": true,
+    "powermode.presets": "flames"
 }

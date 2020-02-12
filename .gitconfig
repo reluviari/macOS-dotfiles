@@ -1,12 +1,10 @@
 [user]
 	mail = reluviari@gmail.com
 	name = Danilo Dias
-	email = reluviari@gmail.com
 [core]
 	editor = vim
 [merge]
 	tool = vimdiff
-
 [alias]
 	gcl='git clone'
 	ga='git add'
@@ -40,3 +38,6 @@
 	gta='git tag -a'
 	gtd='git tag -d'
 	gtl='git tag -l'
+        hub-new-repo=: !REPO=$(basename $PWD) GHUSER=$(git config --get github.user); curl -u $GHUSER https://api.github.com/user/repos -d {\\\"name\\\":\\\"$REPO\\\"} --fail; git remote add origin git@github.com:$GHUSER/$REPO.git; git push origin master"
+[github]
+	user = reluviari
