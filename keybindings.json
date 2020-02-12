@@ -19,5 +19,15 @@
       "key": "ctrl+shift+up",
       "command": "workbench.action.terminal.resizePaneUp",
       "when": "terminalFocus"
+    },
+    {
+      "key": "cmd+y",
+      "command": "redo",
+      "when": "textInputFocus && !editorReadonly"
+    },
+    {
+      "key": "shift+cmd+z",
+      "command": "-redo",
+      "when": "textInputFocus && !editorReadonly"
     }
   ]

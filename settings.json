@@ -7,5 +7,34 @@
     "go.useLanguageServer": true,
     "liveServer.settings.donotShowInfoMsg": true,
     "powermode.enabled": true,
-    "powermode.presets": "flames"
+    "powermode.presets": "flames",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[graphql]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "editor.codeActionsOnSave": {
+        // For ESlint
+        "source.fixAll.eslint": true, 
+        // For TSlint
+        "source.fixAll.tslint": true 
+    }
+
 }
