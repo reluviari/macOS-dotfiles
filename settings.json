@@ -6,7 +6,7 @@
     "files.autoSave": "afterDelay",
     "go.useLanguageServer": true,
     "liveServer.settings.donotShowInfoMsg": true,
-    "powermode.enabled": true,
+    "powermode.enabled": false,
     "powermode.presets": "flames",
     "terminal.integrated.shell.osx": "/bin/zsh",
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -30,11 +30,17 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true
     },
+    
     "editor.codeActionsOnSave": {
         // For ESlint
         "source.fixAll.eslint": true, 
         // For TSlint
         "source.fixAll.tslint": true 
-    }
-
+    },
+    "prettier.jsxBracketSameLine": true,
+    "prettier.jsxSingleQuote": true,
+    "prettier.packageManager": "yarn",
+    "prettier.tabWidth": 4,
+    "prettier.trailingComma": "es5",
+    "prettier.useTabs": true,
 }
