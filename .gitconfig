@@ -38,6 +38,6 @@
 	gta='git tag -a'
 	gtd='git tag -d'
 	gtl='git tag -l'
-        hub-new-repo=: !REPO=$(basename $PWD) GHUSER=$(git config --get github.user); curl -u $GHUSER https://api.github.com/user/repos -d {\\\"name\\\":\\\"$REPO\\\"} --fail; git remote add origin git@github.com:$GHUSER/$REPO.git; git push origin master"
+        ghubnew="curl -u $(git config --get github.user) https://api.github.com/user/repos -d "{\"name\":\"$(basename $PWD)\"}" && git remote add origin git@github.com:$(git config --get github.user)/$(basename $PWD).git && git push origin master"
 [github]
 	user = reluviari
