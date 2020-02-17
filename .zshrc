@@ -33,7 +33,7 @@ export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/b
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/hitss/.oh-my-zsh"
+export ZSH="/Users/danilo/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
