@@ -10,6 +10,8 @@ else
   exit 1
 fi
 
+# copy Vs-Code files
+cp  $HOME/.vimrc .
 
 # copy Vs-Code files
 cp  $HOME/Library/Application\ Support/Code/User/settings.json .
