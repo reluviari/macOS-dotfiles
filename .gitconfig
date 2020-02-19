@@ -42,3 +42,5 @@
         ghubnew="curl -u $(git config --get github.user) https://api.github.com/user/repos -d "{\"name\":\"$(basename $PWD)\"}" && git remote add origin git@github.com:$(git config --get github.user)/$(basename $PWD).git && git push origin master"
 [github]
 	user = reluviari
+[color]
+	ui = true
