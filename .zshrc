@@ -1,3 +1,16 @@
+copy-to-xclip() {
+    zle kill-buffer
+    print -rn -- $CUTBUFFER | cb
+}; zle -N copy-to-xclip
+bindkey -M viins "^]" copy-to-xclip
+
+paste-xclip() {
+    killring=("$CUTBUFFER" "${(@)killring[1,-2]}")
+    CUTBUFFER=$(xclip -selection clipboard -o)
+    zle yank
+}; zle -N paste-xclip
+bindkey -M vicmd "p" paste-xclip
+
 export ANDROID_HOME=~/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
