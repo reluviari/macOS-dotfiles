@@ -1,16 +1,3 @@
-copy-to-xclip() {
-    zle kill-buffer
-    print -rn -- $CUTBUFFER | cb
-}; zle -N copy-to-xclip
-bindkey -M viins "^]" copy-to-xclip
-
-paste-xclip() {
-    killring=("$CUTBUFFER" "${(@)killring[1,-2]}")
-    CUTBUFFER=$(xclip -selection clipboard -o)
-    zle yank
-}; zle -N paste-xclip
-bindkey -M vicmd "p" paste-xclip
-
 export ANDROID_HOME=~/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
@@ -18,24 +5,6 @@ export PATH=$PATH:$ANDROID_HOME/emulator
 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-
-alias generic_4.4='emulator @generic_4.4 -no-boot-anim -netdelay none -no-snapshot -wipe-data -skin 768x1280 &'
-
-alias generic_5.0='emulator @generic_5.0 -no-boot-anim -netdelay none -no-snapshot -wipe-data -skin 768x1280 &'
-
-alias generic_5.1='emulator @generic_5.1 -no-boot-anim -netdelay none -no-snapshot -wipe-data -skin 768x1280 &'
-
-alias generic_6.0='emulator @generic_6.0 -no-boot-anim -netdelay none -no-snapshot -wipe-data -skin 768x1280 &'
-
-alias generic_7.0='emulator @generic_7.0 -no-boot-anim -netdelay none -no-snapshot -wipe-data -skin 768x1280 &'
-
-alias generic_7.1='emulator @generic_7.1 -no-boot-anim -netdelay none -no-snapshot -wipe-data -skin 768x1280 &'
-
-alias generic_8.0='emulator @generic_8.0 -no-boot-anim -netdelay none -no-snapshot -wipe-data -skin 768x1280 &'
-
-alias generic_8.1='emulator @generic_8.1 -no-boot-anim -netdelay none -no-snapshot -wipe-data -skin 768x1280 &'
-
-alias generic_9.0='emulator @generic_9.0 -no-boot-anim -netdelay none -no-snapshot -wipe-data -skin 768x1280 &'
 
 # Add Visual Studio Code (code)
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
@@ -141,8 +110,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+  [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="/usr/local/sbin:$PATH"
