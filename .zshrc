@@ -23,7 +23,10 @@ export ZSH="/Users/danilo/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+
+# ZSH_THEME="robbyrussell"
+ZSH_THEME="kafeitu"
+
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -125,3 +128,6 @@ export PATH="/usr/local/opt/libxslt/bin:$PATH"
 export PATH="/usr/local/opt/openssl/bin:$PATH"
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 export PATH="/usr/local/Cellar/postgresql@9.6/9.6.17/bin:$PATH"
+
+alias work='cd ~/local/work/development/'
+alias personal='cd ~/local/personal/'
