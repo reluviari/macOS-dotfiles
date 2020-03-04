@@ -126,7 +126,7 @@ export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/opt/libxml2/bin:$PATH"
 export PATH="/usr/local/opt/libxslt/bin:$PATH"
 export PATH="/usr/local/opt/openssl/bin:$PATH"
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+# if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 export PATH="/usr/local/Cellar/postgresql@9.6/9.6.17/bin:$PATH"
 
 alias work='cd ~/local/work/development/'
