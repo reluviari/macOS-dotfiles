@@ -10,7 +10,6 @@
 	gcl='git clone'
 	ga='git add'
 	gall='git add -A'
-	gus='git reset --hard && git clean -dfx'
 	gpristine='git reset --hard && git clean -dfx'
 	gclean='git clean -fd'
 	gss='git status -s'
