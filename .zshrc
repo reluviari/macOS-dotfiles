@@ -24,8 +24,9 @@ export ZSH="/Users/danilo/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 
-ZSH_THEME="robbyrussell"
+# ZSH_THEME="robbyrussell"
 # ZSH_THEME="kafeitu"
+ZSH_THEME="KayidmacOS"
 
 
 # Set list of themes to pick from when loading at random
@@ -126,7 +127,7 @@ export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/opt/libxml2/bin:$PATH"
 export PATH="/usr/local/opt/libxslt/bin:$PATH"
 export PATH="/usr/local/opt/openssl/bin:$PATH"
-# if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 export PATH="/usr/local/Cellar/postgresql@9.6/9.6.17/bin:$PATH"
 
 alias work='cd ~/local/work/development/'
