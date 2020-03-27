@@ -74,6 +74,10 @@
     "liveServer.settings.donotShowInfoMsg": true,
     "window.zoomLevel": -1,
     "projectManager.groupList": true,
+    "todo-tree.tree.showScanModeButton": false,
+    "gitlens.advanced.messages": {
+        "suppressFileNotUnderSourceControlWarning": true
+    },
     // "editor.gotoLocation.multipleReferences": "gotoAndPeek",
     
     
