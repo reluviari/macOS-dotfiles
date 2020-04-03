@@ -55,12 +55,17 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true
     },
+    "[ruby]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true
+    },
     
     "editor.codeActionsOnSave": {
         // For ESlint
         "source.fixAll.eslint": true, 
         // For TSlint
-        "source.fixAll.tslint": true 
+        "source.fixAll.tslint": true ,
     },
     "prettier.jsxBracketSameLine": true,
     "prettier.jsxSingleQuote": true,
@@ -78,18 +83,19 @@
     "gitlens.advanced.messages": {
         "suppressFileNotUnderSourceControlWarning": true
     },
-    // "editor.gotoLocation.multipleReferences": "gotoAndPeek",
 
-    "ruby.useBundler": true, //run non-lint commands with bundle exec
-    "ruby.useLanguageServer": true, // use the internal language server (see below)
     "ruby.lint": {
-    "rubocop": {
-        "useBundler": true // enable rubocop via bundler
+        "reek": true,
+        "rubocop": true,
+        "ruby": true,
+        "fasterer": true,
+        "debride": true,
+        "ruby-lint": true
     },
-    "reek": {
-        "useBundler": true // enable reek via bundler
-    }
-    },
-    "ruby.format": "rubocop", // use rubocop for formatting
-    
+    "editor.renderWhitespace": "none",
+    "nasc-touchbar.goToDefinition": false,
+    "nasc-touchbar.addCursorBelow": false,
+    "nasc-touchbar.copyLineDown": true,
+    "nasc-touchbar.rename": false,
+    "nasc-touchbar.jumpToBracket": true,
 }
