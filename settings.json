@@ -1,7 +1,7 @@
 {
     "window.openFilesInNewWindow": "on",
     // Define o tema do VSCode
-    "workbench.colorTheme": "Adapta Nokto",
+    "workbench.colorTheme": "One Monokai",
 
     // Configura tamanho e família da fonte
     "editor.fontSize":14,
@@ -77,7 +77,7 @@
     "javascript.updateImportsOnFileMove.enabled": "always",
     "go.useLanguageServer": true,
     "liveServer.settings.donotShowInfoMsg": true,
-    "window.zoomLevel": -1,
+    "window.zoomLevel": 0,
     "projectManager.groupList": true,
     "todo-tree.tree.showScanModeButton": false,
     "gitlens.advanced.messages": {
@@ -99,4 +99,5 @@
     "nasc-touchbar.rename": false,
     "nasc-touchbar.jumpToBracket": true,
     "liveshare.presence": false,
+    "editor.snippetSuggestions": "top",
 }
