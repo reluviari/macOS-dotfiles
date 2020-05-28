@@ -77,7 +77,7 @@
     "javascript.updateImportsOnFileMove.enabled": "always",
     "go.useLanguageServer": true,
     "liveServer.settings.donotShowInfoMsg": true,
-    "window.zoomLevel": -2,
+    "window.zoomLevel": 0,
     "projectManager.groupList": true,
     "todo-tree.tree.showScanModeButton": false,
     "gitlens.advanced.messages": {
@@ -100,4 +100,8 @@
     "nasc-touchbar.jumpToBracket": true,
     "liveshare.presence": false,
     "editor.snippetSuggestions": "top",
+    "git-graph.dateFormat": "Date Only",
+    "git-graph.commitOrdering": "author-date",
+    "gitlens.codeLens.authors.enabled": false,
+    "gitlens.codeLens.recentChange.enabled": false,
 }
