@@ -1,7 +1,7 @@
 {
     "window.openFilesInNewWindow": "on",
     // Define o tema do VSCode
-    "workbench.colorTheme": "One Monokai",
+    "workbench.colorTheme": "Nord",
 
     // Configura tamanho e família da fonte
     "editor.fontSize":14,
