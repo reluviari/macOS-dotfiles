@@ -104,5 +104,4 @@
     "git-graph.commitOrdering": "author-date",
     "gitlens.codeLens.authors.enabled": false,
     "gitlens.codeLens.recentChange.enabled": false,
-    "terminal.integrated.scrollback": 10000,
 }
