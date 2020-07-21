@@ -134,5 +134,5 @@ export PATH="/usr/local/opt/openssl/bin:$PATH"
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 export PATH="/usr/local/Cellar/postgresql@9.6/9.6.17/bin:$PATH"
 
-alias work='cd ~/local/work/development/'
-alias personal='cd ~/local/personal/'
+alias claro='cd ~/Projects/Claro/minha-claro'
+alias dev='cd ~/Projects/Development/'
