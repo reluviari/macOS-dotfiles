@@ -4,6 +4,7 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 export PATH=$PATH:$ANDROID_HOME/emulator
 export JAVA_HOME="$(/usr/libexec/java_home)"
 export PATH=$JAVA_HOME/bin:$PATH
+export PATH="$HOME/.serverless/bin:$PATH"
 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -136,3 +137,6 @@ export PATH="/usr/local/Cellar/postgresql@9.6/9.6.17/bin:$PATH"
 
 alias claro='cd ~/Projects/Claro/minha-claro'
 alias dev='cd ~/Projects/Development/'
+
+# Added by serverless binary installer
+export PATH="$HOME/.serverless/bin:$PATH"
