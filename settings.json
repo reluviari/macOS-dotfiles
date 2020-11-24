@@ -77,7 +77,7 @@
     "javascript.updateImportsOnFileMove.enabled": "always",
     "go.useLanguageServer": true,
     "liveServer.settings.donotShowInfoMsg": true,
-    "window.zoomLevel": -1,
+    "window.zoomLevel": 0,
     "projectManager.groupList": true,
     "todo-tree.tree.showScanModeButton": false,
     "gitlens.advanced.messages": {
@@ -106,4 +106,10 @@
     "gitlens.codeLens.recentChange.enabled": false,
     "diffEditor.ignoreTrimWhitespace": false,
     "liveshare.anonymousGuestApproval": "accept",
+    "vs-kubernetes": {
+        "vs-kubernetes.kubectl-path.mac": "/Users/danilo/.vs-kubernetes/tools/kubectl/kubectl",
+        "vs-kubernetes.minikube-path.mac": "/Users/danilo/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
+        "vs-kubernetes.helm-path.mac": "/Users/danilo/.vs-kubernetes/tools/helm/darwin-amd64/helm",
+        "vs-kubernetes.draft-path.mac": "/Users/danilo/.vs-kubernetes/tools/draft/darwin-amd64/draft"
+    },
 }
