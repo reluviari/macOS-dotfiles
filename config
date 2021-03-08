@@ -1,8 +1,8 @@
-Host github.com
-    User git
-    Hostname github.com
-    PreferredAuthentications publickey
-    IdentityFile ~/.ssh/id_rsa_globalhitss
+#Host github.com
+#    User git
+#    Hostname github.com
+#    PreferredAuthentications publickey
+#    IdentityFile ~/.ssh/id_rsa_globalhitss
 
 #Host github.com-globalhitss
 #    User git
