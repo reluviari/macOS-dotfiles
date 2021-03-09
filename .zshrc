@@ -140,3 +140,13 @@ alias dev='cd ~/Projects/Development/'
 
 # Added by serverless binary installer
 export PATH="$HOME/.serverless/bin:$PATH"
+export PATH="/usr/local/opt/postgresql@9.6/bin:$PATH"
+#export PATH="/usr/local/opt/ruby/bin:$PATH"
+#export PATH="/usr/local/lib/ruby/2.1.0:$PATH"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+export PATH="/usr/local/opt/openssl@1.0.2t/bin:$PATH"
+export PATH="/usr/local/opt/openssl/bin:$PATH"
+export PATH="/usr/local/opt/openssl@1.0/bin:$PATH"
+export PATH="/usr/local/opt/postgresql@9.6/bin:$PATH"
