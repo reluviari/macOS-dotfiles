@@ -5,6 +5,7 @@ export PATH=$PATH:$ANDROID_HOME/emulator
 export JAVA_HOME="$(/usr/libexec/java_home)"
 export PATH=$JAVA_HOME/bin:$PATH
 export PATH="$HOME/.serverless/bin:$PATH"
+export PATH=$JAVA_HOME/bin:/usr/local/opt/ruby/bin:/usr/local/bin:$PATH
 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -32,7 +33,6 @@ export ZSH="/Users/danilo/.oh-my-zsh"
 # ZSH_THEME="robbyrussell"
 # ZSH_THEME="kafeitu"
 ZSH_THEME="KayidmacOS"
-
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -122,31 +122,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export NVM_DIR="$HOME/.nvm"
-  [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
-  [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
-
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="/usr/local/sbin:$PATH"
-
-export PATH="/usr/local/opt/libxml2/bin:$PATH"
-export PATH="/usr/local/opt/libxslt/bin:$PATH"
-export PATH="/usr/local/opt/openssl/bin:$PATH"
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
-export PATH="/usr/local/Cellar/postgresql@9.6/9.6.17/bin:$PATH"
-
-alias claro='cd ~/Projects/Claro/minha-claro'
-alias dev='cd ~/Projects/Development/'
-
-# Added by serverless binary installer
-export PATH="$HOME/.serverless/bin:$PATH"
-export PATH="/usr/local/opt/postgresql@9.6/bin:$PATH"
-#export PATH="/usr/local/opt/ruby/bin:$PATH"
-#export PATH="/usr/local/lib/ruby/2.1.0:$PATH"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
-export PATH="/usr/local/opt/openssl@1.0.2t/bin:$PATH"
-export PATH="/usr/local/opt/openssl/bin:$PATH"
-export PATH="/usr/local/opt/openssl@1.0/bin:$PATH"
-export PATH="/usr/local/opt/postgresql@9.6/bin:$PATH"
