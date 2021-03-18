@@ -112,4 +112,5 @@
         "vs-kubernetes.draft-path.mac": "/Users/danilo/.vs-kubernetes/tools/draft/darwin-amd64/draft",
         "vscode-kubernetes.minikube-path.mac": "/Users/danilo/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
     },
+    "window.zoomLevel": 1,
 }
