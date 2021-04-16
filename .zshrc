@@ -7,8 +7,11 @@ export PATH=$JAVA_HOME/bin:$PATH
 export PATH="$HOME/.serverless/bin:$PATH"
 export PATH=$JAVA_HOME/bin:/usr/local/opt/ruby/bin:/usr/local/bin:$PATH
 
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+# brew install zsh-syntax-highlighting
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# brew install zsh-autosuggestions
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Add Visual Studio Code (code)
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
@@ -32,7 +35,7 @@ export ZSH="/Users/danilo/.oh-my-zsh"
 
 # ZSH_THEME="robbyrussell"
 # ZSH_THEME="kafeitu"
-ZSH_THEME="KayidmacOS"
+ZSH_THEME="kayid"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
