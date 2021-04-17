@@ -1,7 +1,5 @@
 {
     "window.openFilesInNewWindow": "on",
-    // Define o tema do VSCode
-    "workbench.colorTheme": "Nord",
 
     // Configura tamanho e família da fonte
     "editor.fontSize":14,
@@ -21,7 +19,7 @@
    "terminal.integrated.fontSize":14,
    
    // Define o tema dos ícones na sidebar
-    "workbench.iconTheme":"vscode-great-icons",
+    "workbench.iconTheme":"material-icon-theme",
 
     // Config Power Mode
     "powermode.enabled": false,
@@ -118,4 +116,5 @@
             "filenamePattern": "*.ipynb"
         }
     ],
+    "workbench.colorTheme": "Adapta Nokto",
 }
