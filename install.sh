@@ -19,4 +19,10 @@ chsh -s $(which zsh)
 echo "Installing Oh My Zsh"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
+echo "Zsh Syntax Highlighting"
+brew install zsh-syntax-highlighting
+
+echo "Zsh Syntax Autosuggestions"
+brew install zsh-autosuggestions
+
 echo "Done!"
