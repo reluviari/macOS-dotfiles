@@ -1,12 +1,16 @@
-# export ANDROID_HOME=~/Android/Sdk
+
+   
+#export ANDROID_HOME=~/Android
 #export PATH=$PATH:$ANDROID_HOME/tools/bin
 #export PATH=$PATH:$ANDROID_HOME/platform-tools
 #export PATH=$PATH:$ANDROID_HOME/emulator
 
 export ANDROID_HOME=~/Android
+#export ANDROID_SDK_ROOT=~/Android
 export PATH=$ANDROID_HOME/cmdline-tools/tools/bin/:$PATH
 export PATH=$ANDROID_HOME/emulator/:$PATH
 export PATH=$ANDROID_HOME/platform-tools/:$PATH
+
 
 export JAVA_HOME="$(/usr/libexec/java_home)"
 export PATH=$JAVA_HOME/bin:$PATH
