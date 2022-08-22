@@ -150,5 +150,9 @@
     "yaml.schemas": {},
     "aws.profile": "profile:user-glic-load-datawarehouse",
     "aws.onDefaultRegionMissing": "add",
-    "json.schemas": []
+    "json.schemas": [],
+    "editor.suggest.showMethods": true,
+    "editor.suggest.preview": true,
+    "editor.acceptSuggestionOnEnter": "on",
+    "window.zoomLevel": -1
 }

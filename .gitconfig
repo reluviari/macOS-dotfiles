@@ -44,3 +44,7 @@
 	user = reluviari
 [color]
 	ui = true
+[url "git@github.com:"]
+	insteadOf = git://github.com/
+[url "https://github.com/"]
+	insteadOf = git://github.com/
